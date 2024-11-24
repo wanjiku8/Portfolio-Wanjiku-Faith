@@ -5,36 +5,6 @@
 Welcome to my portfolio repository! This project highlights my journey, skills, and experiences as an aspiring software engineer passionate about eco-friendly projects and coding education for kids.
 
 ---
-
-## About Me
-
-I am a **scholarship student** at **Moringa School**, training to become a **software engineer**. My interests include:
-
-- Teaching kids to code.
-- Promoting eco-friendly and sustainable projects.
-- Exploring creative hobbies like drumming, outdoor adventures, and photography.
-
----
-
-## Experience
-
-- **Job Shadowing at Diamond Trust Bank**: Learned about banking operations and financial analysis.  
-- **Tech Event at Ruby**: Attended a web tech event and networked with professionals.  
-- **School Management at iHub**: Discovered how technology supports education systems.
-
----
-
-## Skills
-
-- **HTML**: Proficient  
-- **CSS**: Advanced  
-- **JavaScript**: Intermediate  
-- **React**: Beginner  
-- **WordPress**: Advanced  
-- **PHP**: Intermediate  
-
----
-
 ## Contact Me
 
 - **Email**: [wanjikuf141@gmail.com](mailto:wanjikuf141@gmail.com)  
@@ -42,17 +12,34 @@ I am a **scholarship student** at **Moringa School**, training to become a **sof
 
 ---
 
-## How to Use This Portfolio
+## Technologies Used
 
-### Step 1: Fork This Repository
-Click the "Fork" button at the top right of this page. This will create a copy of the portfolio in your GitHub account.
+- **HTML** – Markup language for creating the structure of the website.
+- **CSS** – Styling language used for designing the layout and presentation of the website.
+- **Bootstrap** – CSS framework for responsive design.
+- **Font Awesome** – Icon library for displaying icons (such as GitHub and LinkedIn logos).
 
-### Step 2: Clone the Repository
-Copy your forked repository link and run this command in your terminal (replace `your-username` with your GitHub username):
+---
 
-```bash
-git clone https://github.com/your-username/Portfolio-Wanjiku-Faith.git
+## Instructions for Setting Up the Project Locally
 
+1. **Fork this repository**:  
+   Click the "Fork" button at the top right of this repository to create a copy under your own GitHub account.
+
+2. **Clone the forked repository**:  
+   Open your terminal or command prompt and run the following command to clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Portfolio-Wanjiku-Faith.git
+
+   
+Navigate into the project directory:
+
+cd Portfolio-Wanjiku-Faith
+Open the project:
+Open the project folder in your preferred code editor (e.g., VS Code, Sublime Text).
+
+Open the project in a browser:
+Simply double-click the index.html file to open the website in your browser.
 
 
 
