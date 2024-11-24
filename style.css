@@ -1,15 +1,15 @@
-
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
+
 /* Header Styling */
 header {
     position: relative;
-    background: linear-gradient(135deg, rgba(106, 17, 203, 0.85), rgba(37, 117, 252, 0.85)), 
-                url('./pic/freepik__candid-image-photography-natural-textures-highly-r__62916.png') no-repeat center center;
+    background: linear-gradient(135deg, rgba(106, 17, 203, 0.85), rgba(27, 38, 56, 0.85)),
+        url('./pic/freepik__candid-image-photography-natural-textures-highly-r__62916.png') no-repeat center center;
     background-size: cover;
     color: #fff;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
@@ -19,7 +19,8 @@ header {
 }
 
 /* Header Text Styling */
-h1, h2 {
+h1,
+h2 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -74,24 +75,6 @@ a::after {
 a:hover::after {
     width: 100%;
 }
-
-/* Media Queries for Smaller Screens */
-@media (max-width: 768px) {
-    header {
-        padding: 100px 0;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-        line-height: 1.2;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-}
-
-
 
 
 /* Navbar */
@@ -285,20 +268,6 @@ section p {
     width: 100%;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    #about {
-        padding: 3rem 1.5rem;
-    }
-
-    #about h2 {
-        font-size: 2rem;
-    }
-
-    #about p {
-        font-size: 1rem;
-    }
-}
 
 /* General Section Styling */
 #experience {
@@ -401,21 +370,7 @@ section p {
     left: 100%;
 }
 
-/* Card Responsiveness */
-@media (max-width: 768px) {
-    .card {
-        padding: 1.5rem;
-    }
-    #experience h2 {
-        font-size: 2rem;
-    }
-    .card h5 {
-        font-size: 1.25rem;
-    }
-    .card p {
-        font-size: 0.9rem;
-    }
-}
+
 
 /* Hover Effects for Columns */
 .col-md-6 {
@@ -434,20 +389,6 @@ section p {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    #experience h2 {
-        font-size: 2rem;
-    }
-
-    .col-md-6 {
-        margin-bottom: 15px;
-    }
-
-    .card-body h5 {
-        font-size: 1.5rem;
-    }
-}
 
 /* Skills Section Styling */
 #skills {
@@ -560,17 +501,6 @@ section p {
     transform: scaleY(1);
 }
 
-/* Media Queries for Smaller Screens */
-@media (max-width: 768px) {
-    #skills h2 {
-        font-size: 2rem;
-    }
-
-    .skill-cards-container {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 20px;
-    }
-}
 
 /* Contact Section */
 #contact h2 {
@@ -578,14 +508,16 @@ section p {
     font-weight: bold;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     border: 1px solid #ccc;
     padding: 12px;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
     border-color: #2a7d9f;
     outline: none;
     box-shadow: 0px 0px 6px rgba(42, 125, 159, 0.4);
@@ -676,16 +608,7 @@ section p {
     width: 100%;
 }
 
-/* Adjust form layout on smaller screens */
-@media (max-width: 768px) {
-    .contact-form .row {
-        flex-direction: column;
-    }
 
-    .contact-form input {
-        margin-bottom: 15px;
-    }
-}
 
 /* Footer Styling */
 footer {
@@ -745,36 +668,3 @@ footer .footer-logo h3 {
 
 
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .footer-links {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .contact-input, .contact-textarea {
-        width: 250px;
-    }
-}
-
-
-/* Custom Container Adjustments */
-.container {
-    max-width: 1140px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    .hover-effect:hover {
-        transform: none;
-        box-shadow: none;
-    }
-
-    nav ul {
-        text-align: center;
-    }
-
-    footer p {
-        font-size: 0.8rem;
-    }
-}
