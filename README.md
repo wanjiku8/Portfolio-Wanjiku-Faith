@@ -1,5 +1,7 @@
 # Portfolio-Wanjiku-Faith
 
+Live link https://wanjiku8.github.io/Portfolio-Wanjiku-Faith/
+
 ## Wanjiku Faith | Software Student at Moringa School | Developer | Nature Lover 
 
 Welcome to my portfolio repository! This project highlights my journey, skills, and experiences as an aspiring software engineer passionate about eco-friendly projects and coding education for kids.
